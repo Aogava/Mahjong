@@ -1,0 +1,20 @@
+.cart-table {
+  display: grid;
+  grid-template-columns: repeat(8, auto);
+  justify-content: center;
+  gap: 1.04vw;
+}
+
+.cart-table__item {
+  display: grid;
+  align-content: center;
+  justify-content: center;
+  width: 5.55vw;
+  height: 11.55vh;
+  border: 1px solid #CDCDCD;
+  border-radius: 8px;
+  font-family: Poppins;
+  font-weight: 700;
+  font-size: 1.5rem;
+  user-select: none;
+}
